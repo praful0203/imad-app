@@ -17,6 +17,6 @@ button.onclick = function() {
       
     };
     //Make Request
-    request.open('GET','http://prafulmishra0203.imad.hasura-app.io/', true);
+    request.open('GET','http://prafulmishra0203.imad.hasura-app.io/counter', true);
     request.send(null);
 };
